@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RedSpiderTech.Simulation.Common\RedSpiderTech.Simulation.Common.csproj" />
+    <ProjectReference Include="..\RedSpiderTech.Simulation.DataManager\RedSpiderTech.Simulation.DataManager.csproj" />
+    <ProjectReference Include="..\RedSpiderTech.Simulation.Data\RedSpiderTech.Simulation.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="RedSpiderTech.SecuritiesResearch.Common">
+      <HintPath>..\..\Build\netstandard2.0\RedSpiderTech.SecuritiesResearch.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

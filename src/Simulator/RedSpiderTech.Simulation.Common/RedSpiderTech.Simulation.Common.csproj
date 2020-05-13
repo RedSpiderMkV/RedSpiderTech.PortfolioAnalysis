@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.9.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RedSpiderTech.Simulation.Data\RedSpiderTech.Simulation.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="RedSpiderTech.SecuritiesResearch.DataAccess">
+      <HintPath>..\..\Build\netstandard2.0\RedSpiderTech.SecuritiesResearch.DataAccess.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

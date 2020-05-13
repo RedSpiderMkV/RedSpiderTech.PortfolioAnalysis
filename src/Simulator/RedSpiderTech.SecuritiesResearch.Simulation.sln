@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedSpiderTech.Simulation.Host", "RedSpiderTech.Simulation.Host\RedSpiderTech.Simulation.Host.csproj", "{5378D10D-6F53-4D7C-B20E-51DB71AF1685}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedSpiderTech.Simulation.Data", "RedSpiderTech.Simulation.Data\RedSpiderTech.Simulation.Data.csproj", "{19ADBBC5-346E-43A2-8DD4-B18BF5D09A6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedSpiderTech.Simulation.DataManager", "RedSpiderTech.Simulation.DataManager\RedSpiderTech.Simulation.DataManager.csproj", "{BA10751E-9833-4F9C-8222-9CD847B899ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedSpiderTech.Simulation.Common", "RedSpiderTech.Simulation.Common\RedSpiderTech.Simulation.Common.csproj", "{5D2514FB-0371-486B-AD66-3B6F956CE06C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedSpiderTech.Simulation.Reporting", "RedSpiderTech.Simulation.Reporting\RedSpiderTech.Simulation.Reporting.csproj", "{B0977E0B-129C-4B5F-BE0B-A960CE546F31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedSpiderTech.Simulation.Simulations", "RedSpiderTech.Simulation.Simulations\RedSpiderTech.Simulation.Simulations.csproj", "{9BE5B883-268A-499F-9F0D-1BE199A36FAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5378D10D-6F53-4D7C-B20E-51DB71AF1685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5378D10D-6F53-4D7C-B20E-51DB71AF1685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5378D10D-6F53-4D7C-B20E-51DB71AF1685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5378D10D-6F53-4D7C-B20E-51DB71AF1685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19ADBBC5-346E-43A2-8DD4-B18BF5D09A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19ADBBC5-346E-43A2-8DD4-B18BF5D09A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19ADBBC5-346E-43A2-8DD4-B18BF5D09A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19ADBBC5-346E-43A2-8DD4-B18BF5D09A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA10751E-9833-4F9C-8222-9CD847B899ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA10751E-9833-4F9C-8222-9CD847B899ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA10751E-9833-4F9C-8222-9CD847B899ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA10751E-9833-4F9C-8222-9CD847B899ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2514FB-0371-486B-AD66-3B6F956CE06C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2514FB-0371-486B-AD66-3B6F956CE06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2514FB-0371-486B-AD66-3B6F956CE06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2514FB-0371-486B-AD66-3B6F956CE06C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0977E0B-129C-4B5F-BE0B-A960CE546F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0977E0B-129C-4B5F-BE0B-A960CE546F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0977E0B-129C-4B5F-BE0B-A960CE546F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0977E0B-129C-4B5F-BE0B-A960CE546F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE5B883-268A-499F-9F0D-1BE199A36FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE5B883-268A-499F-9F0D-1BE199A36FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE5B883-268A-499F-9F0D-1BE199A36FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE5B883-268A-499F-9F0D-1BE199A36FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC25D5C0-78BD-43C1-A2C6-303C1D3124D9}
+	EndGlobalSection
+EndGlobal

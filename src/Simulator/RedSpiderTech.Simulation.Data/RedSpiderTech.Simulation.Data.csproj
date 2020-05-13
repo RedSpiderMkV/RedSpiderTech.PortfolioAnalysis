@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="RedSpiderTech.SecuritiesResearch.Common">
+      <HintPath>..\..\Build\netstandard2.0\RedSpiderTech.SecuritiesResearch.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
